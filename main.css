@@ -153,3 +153,68 @@ a:hover {
         margin: 0 0.7em;
     }
 }
+
+/* CV lists */
+
+.page ul.cv-list {
+    list-style: none;
+    padding: 0;
+}
+
+.page .cv-list li {
+    display: flex;
+    gap: 1.2em;
+    margin-bottom: 1.1em;
+}
+
+.page .cv-entry {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.45em;
+}
+
+.page .cv-position {
+    font-weight: 600;
+}
+
+.page .cv-note {
+    display: block;
+    font-size: 0.8em;
+    font-style: italic;
+    line-height: 1.2em;
+}
+
+.page .cv-place {
+    color: #777;
+    font-size: 0.85em;
+}
+
+.page .cv-date {
+    flex: 0 0 5.5em;
+    color: #777;
+}
+
+.page .cv-pubs .ai {
+    margin-right: 0.3em;
+}
+
+.page .cv-pubs a {
+    white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+    .page .cv-list li {
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 0.9em;
+    }
+
+    .page .cv-date {
+        flex-basis: auto;
+    }
+
+    .page .cv-note {
+        display: inline;
+        margin-left: 0.5em;
+    }
+}
