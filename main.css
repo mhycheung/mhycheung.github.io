@@ -54,6 +54,26 @@ a:hover {
     color: #1565c0;
 }
 
+/* Footer (home page) */
+
+.site-footer {
+    position: fixed;
+    bottom: 14px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.65rem;
+    color: #aaa;
+}
+
+.site-footer a {
+    color: #aaa;
+}
+
+.site-footer a:hover {
+    color: #555;
+}
+
 /* Site navigation */
 
 .site-nav {
