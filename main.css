@@ -53,3 +53,103 @@ a:hover {
 .icons a:hover {
     color: #1565c0;
 }
+
+/* Site navigation */
+
+.site-nav {
+    position: fixed;
+    top: 28px;
+    right: 36px;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    z-index: 10;
+}
+
+.site-nav a {
+    color: black;
+    margin-left: 1.6em;
+    opacity: 0.55;
+    transition: opacity 0.15s;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+    color: black;
+    opacity: 1;
+}
+
+/* Text pages (CV, Open Science) */
+
+.page {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 120px 32px 80px;
+    line-height: 1.7em;
+}
+
+.page h1 {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.3em;
+    margin: 0 0 1.5em;
+}
+
+.page .meta {
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    color: #777;
+    margin: -2.8em 0 2.5em;
+}
+
+.page h2 {
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 3em 0 1em;
+}
+
+.page a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+.page a:hover {
+    color: #555;
+}
+
+.page ul {
+    padding-left: 1.2em;
+}
+
+.page li {
+    margin-bottom: 1em;
+}
+
+.page strong {
+    font-weight: 600;
+}
+
+.page .question {
+    font-weight: 600;
+    margin: 2em 0 0.4em;
+}
+
+.page .placeholder {
+    color: #aaa;
+}
+
+@media (max-width: 600px) {
+    .site-nav {
+        left: 0;
+        right: 0;
+        top: 18px;
+        text-align: center;
+    }
+
+    .site-nav a {
+        margin: 0 0.7em;
+    }
+}

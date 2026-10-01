@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Define title -->
+    <title>Open Science · Mark Ho-Yeuk Cheung</title>
+
+    <!-- Include favicon. Use, e.g., https://favicon.io/ -->
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
+
+    <!-- Include style sheets -->
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- Fonts from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet" />
+
+    <!-- Load FontAwesome (for icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Load Academicons (for more icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css"
+      integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg=="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav class="site-nav">
+      <a href="index.html">home</a>
+      <a href="cv.html">cv</a>
+      <a href="open-science.html" class="active">open science</a>
+    </nav>
+
+    <main class="page">
+      <h1>Doing science in the open</h1>
+      <p class="meta">October 2026</p>
+
+      <p>
+        I am a gravitational-wave astrophysicist at the Institute for Advanced Study (IAS) in Princeton. I have had the pleasure of interacting with IAS members and visitors who hold vastly different views on AI, from conscientious objectors who refuse to use any kind of AI to those who believe that we should replace ourselves with AI scientist agents. Most agree on one thing: <strong>we urgently have to change the way we do science.</strong>
+      </p>
+      <p>
+        In response, I have decided to conduct the following experiment: <strong>I will open-source my research projects, in an organized manner, while they are still in progress rather than after publication.</strong> This includes not just the results, but the entire development process: research plans, development logs, routes taken (including dead ends), software, and data (the tech-bro buzzword for this seems to be &ldquo;glass-box&rdquo;). This means that anyone can see the progress of my projects in real time, reproduce and verify my results as they are produced, give comments, or build on my projects at any time. All of the materials will be made public on GitHub and Zenodo with the <a href="https://github.com/mhycheung/open-science"><strong>open-science framework</strong></a> I am developing at the IAS.
+      </p>
+
+      <p>
+        Reasons why I am doing this (loosely in descending order of importance):
+      </p>
+      <ul>
+        <li>
+          <strong>Science should be open.</strong> I have heard multiple scientists say that they will no longer share their ongoing work with colleagues because scooping has become so easy with AI. I believe that this is sad, unhealthy, and, to put it bluntly, incredibly stupid. We seem to have placed so much emphasis on priority instead of on doing our work properly and fostering the free exchange of ideas. If this does not change, our beloved fields will be killed not by AI, but by suffocating ourselves in silos. I hope that I can change this just a little bit by being completely transparent about my ongoing research as an early-career scientist (whose career is still at stake).
+        </li>
+        <li>
+          <strong>The route taken to obtain a result might be as important as the result itself.</strong> This is especially true when generating results becomes cheap but understanding them becomes the bottleneck. For projects with significant AI assistance, publishing all the inner workings will also make it much easier to understand and verify what has been done.
+        </li>
+        <li>
+          <strong>The arXiv and journals are flooded with papers.</strong> There were already too many papers before the AI boom, and there are even more now, causing a huge decline in the quality of life of arXiv moderators, editors, reviewers, and the poor grad students who are asked to summarize their subfield&rsquo;s arXiv papers of the week. During the experiment, I will only submit important results to the arXiv, and of these, only send those that I believe contain useful insights to journals. All other results will simply sit in the GitHub and Zenodo repositories of the open-science framework.
+        </li>
+        <li>
+          <strong>We need to understand what LLMs aren&rsquo;t good at, and that requires publicizing failed projects or dead ends within a project.</strong> There seems to be a prevailing sense of existential dread among academics, especially physicists and mathematicians. This is often based on the belief that if LLM agents can solve a couple of important problems, they will be able to solve most, if not all, important problems in the immediate future. This is an extraordinary claim, so it requires extraordinary evidence. I do not think that anyone can say that it will certainly happen, at least not at &gt;5&sigma; (or &gt;2&sigma;, if you are an astrophysicist); word on the street is that not even the AI labs understand the limits of their own frontier LLMs. Personally, I think that such claims are based on naive extrapolations, not on any evidence or theory (here is a reminder of <a href="https://www.smithsonianmag.com/smart-news/market-crash-cost-newton-fortune-180961655/">what happened the other time a certain smart physicist tried to extrapolate</a>). Maybe in a year or two, we will start to realize that there is a subset of problems that AI might fundamentally struggle with, where humans can still contribute meaningfully. By publishing the projects that LLM agents tried to attack but failed, we might be able to understand their limits better.
+        </li>
+        <li>
+          <strong>We do not need to waste effort trying the same approaches on the same problems.</strong> If you see that I am working on the same thing as you, just let me know, and we can figure things out, e.g. whether I should stop and let you proceed, whether we should join forces, or whether we should work independently with different methods and cross-check our results. I do not see the point in wasting time (and tokens / electricity / water) on overlapping work.
+        </li>
+        <li>
+          <strong>If, for some reason, I decide to care about priority in the future, the public records will support me in a priority dispute.</strong> Yes, even if a certain AI lab decides to scoop my Nobel-Prize-worthy idea by spawning teams of 10,000+ frontier agents.
+        </li>
+      </ul>
+
+      <h2>Q&amp;A</h2>
+
+      <p class="question">&ldquo;Will you open-source all of your projects from day one?&rdquo;</p>
+      <p>
+        I cannot guarantee that. For projects that I am working on alone, most likely. For those with coauthors, it will depend on the nature of the project. Also, it is not like you are going to be able to peek over my shoulder while I am working. I still control when I release the material publicly, although I will try to do it as frequently as possible. I might still flag certain parts of a project as private, e.g. private communication, notes that are too messy or irrelevant, or tasks that are too embarrassing (e.g. where I spent three days figuring out why a minus sign is missing). If I have a Nobel-Prize-worthy idea, I might also balk and decide to keep it to myself. Luckily, I do not have this problem right now.
+      </p>
+
+      <p class="question">&ldquo;What if someone scoops you?&rdquo;</p>
+      <p>
+        This will not hurt my career at all. Independent papers receive equal attention in my field, even if one comes out months earlier than the other. My colleagues are not dumb; they can tell if my contribution is meaningful even if someone else published first. Also, it is quite obvious that hiring committees will stop using &ldquo;number of publications&rdquo; or &ldquo;priority in results&rdquo; as a figure of merit, so that is not a concern either.
+      </p>
+
+      <p class="question">&ldquo;What if I find that you are working on the same thing as me?&rdquo;</p>
+      <p>
+        Send me an <a href="mailto:hcheung5@jhu.edu">email</a>; I&rsquo;ll be happy to discuss. You can also build on my work directly; that is the point of the open-science framework. But please do cite me (e.g. the DOI of the Zenodo repository) if you decide to use my results.
+      </p>
+
+      <p class="question">&ldquo;But the work you make public is not peer reviewed if it has not been or will not be published.&rdquo;</p>
+      <p>
+        That is correct. Please keep this in mind if you are using my results. Most results will be marked &ldquo;unverified&rdquo; in the repository until I am confident in them. If you find a mistake, please open an issue in the repository. You could even create a pull request if you want to fix it for me.
+      </p>
+
+      <p class="question">&ldquo;How would you advertise the results you don&rsquo;t post on the arXiv?&rdquo;</p>
+      <p>
+        This is a good question. Firstly, if I decide not to post something on the arXiv, it means that I do not think that the results are that interesting anyway. Moreover, I am blessed enough that some people in my field know who I am and might follow my research even if it is not on the arXiv. I am also fortunate enough to have opportunities to attend conferences and present my work, so I would have many chances to advertise it. However, I understand that someone less privileged than me might not have these opportunities, so I am not advocating that everyone should stop posting all of their work on the arXiv.
+      </p>
+
+      <p class="question">&ldquo;Are you pro-AI?&rdquo;</p>
+      <p>
+        I don&rsquo;t consider myself &ldquo;pro-AI&rdquo;, at least not unconditionally. I think some use cases of AI are wasteful, some are questionable, and some are outright evil. However, I don&rsquo;t see a fundamental problem with using AI to help with scientific research, as long as the results are verified to be correct and you don&rsquo;t flood the arXiv with slop papers. I am paid to do what I do because society thinks that it is important to have someone working professionally on astrophysics, and AI helps me do that job better. Personally, I use AI to varying degrees for different projects. I do most coding tasks with AI, but I like to write papers with much less help from AI because I&rsquo;d like readers to feel that I am talking to them directly (e.g. see <a href="https://arxiv.org/abs/2608.29466">my recent paper</a>).
+      </p>
+      <p>
+        There are many societal issues stemming from AI (P(doom), social equity, data centers, etc.). I have my own opinions on these, but they are outside the scope of this page. Nonetheless, I do not think that we should be morally required to abstain from using AI for scientific discovery. As long as AI use is responsible, it is okay. Of course, scientists should also have the academic freedom to choose to avoid AI in their research.
+      </p>
+    </main>
+  </body>
+</html>
